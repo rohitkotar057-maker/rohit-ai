@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a58aff"/>
+      <stop offset="100%" stop-color="#3b168f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="#100d1b"/>
+  <rect x="30" y="30" width="452" height="452" rx="100" fill="url(#bg)"/>
+  <path d="M256 75 L295 205 L425 256 L295 307 L256 437 L217 307 L87 256 L217 205 Z" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="42" fill="#6d28d9"/>
+  <text x="256" y="475" font-size="38" font-weight="bold" fill="white" text-anchor="middle">ROHIT AI</text>
+</svg>
