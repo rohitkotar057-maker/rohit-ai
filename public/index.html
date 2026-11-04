@@ -1,7 +1,22 @@
 <!doctype html>
 
 <html lang="hi">  
-<head>  
+<head> 
+
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#6d28d9">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js")
+      .catch(error => console.error("SW Error:", error));
+  });
+}
+</script>
+ 
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">  
 <meta name="theme-color" content="#100d1b"><title>ROHIT AI</title>  
 <style>  
